@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+input[type=submit] {padding:5px 5px; background:#ccc; border:0 none;
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px; }
+form div {
+  padding: 5px; /*default div padding in the form e.g.  0 5px 0*/
+  margin: 5px; /*default div padding in the form e.g. 5px 0  0*/
+}
+	</style>
+</head>
+<body background="bgfit.jpg" background-position: 50% 50%; background-repeat:no-repeat;>
+	<form action="homepage.html" method="post" enctype="multipart/form-data">
+    <input type="submit" value="Home" name="submit">
+</form> 
+<div style="width:400px; margin-right:auto; margin-left:auto; border:1px solid #000;"> 
+<center>
+  <form action="uploadMultipleFiles.php" method="post" enctype="multipart/form-data">
+  	<fieldset>
+  <p><label style="color: #aaa; font-weight: bold;">Upload Files:    <input type="file" id="file" name="files[]" multiple="multiple" accept="image/*" ></label><p>
+  	<div>
+  <input type="submit" value="Upload!" name="submit">
+</div>
+  <p><label style="color: #aaa; font-weight: bold;">You Can Upload Multiple Files at a time!</label></p>
+</fieldset>
+</form>
+</center>
+</div>
+</body>
+</html>

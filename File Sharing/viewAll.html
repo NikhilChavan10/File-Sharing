@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="description" content=""/>
+		<meta name="author" content=""/>
+		<title>View Files From All Servers</title>
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="js/demo.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+		<style>
+			.gallary-row > a > img {
+				height: 300px !important;
+				width:330px !important;
+			}
+h2 {color:violet;}
+input[type=submit] {padding:5px 5px; background:#ccc; border:0 none;
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px; }
+button {
+  color: #FFF;
+  background-color: #900;
+  font-weight: bold;
+}
+form div {
+  padding: 5px; /*default div padding in the form e.g.  0 5px 0*/
+  margin: 5px; /*default div padding in the form e.g. 5px 0  0*/
+}
+
+		</style>
+		<!-- Magnific Popup core CSS file -->
+			<link rel="stylesheet" href="css/magnific-popup.css">
+		<!-- Magnific Popup core JS file -->
+		<script src="js/jquery.magnific-popup.js"></script>
+		<script>
+		jQuery(document).ready(function($) {
+			//alert('d');
+			$('#swarupGallery').mycaptcha({
+				width: '100',
+				navHolder: '#navHolder',
+				nextText: '+ More Photos',
+				prevText: '< Prev',
+				coloum: 12,
+				gutterSpace: 10,
+			});
+
+		});
+		</script>
+	</head>
+	
+	<body background="bgfit.jpg" background-position: 50% 50%; background-repeat:no-repeat;>
+  <form action="homepage.html" method="post" enctype="multipart/form-data">
+    <input type="submit" value="Home" name="submit">
+</form> 
+		
+		<!-- insert images here -->
+		<script src="ins-imgs1.php"></script>
+		 <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+			<!-- Our main JS file -->
+	
+	<style>
+		.photo_upload .navbar-default .nav > li > a {
+			color: #000;
+		}
+		
+		.photo_upload .navbar-default .nav > li > a:hover {
+			color: #eb3812;
+		}
+
+		.navbar-default .navbar-header .navbar-brand, .navbar-default .navbar-header .navbar-brand:hover {
+			color: #eb3812;
+		}
+
+		.container-fluid {
+			border-bottom: 1px solid #e7e7e7;
+		}
+	</style>		
+	</body>
+</html>
+

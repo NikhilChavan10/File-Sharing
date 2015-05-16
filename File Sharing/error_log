@@ -1,0 +1,1 @@
+[26-Apr-2015 23:55:24 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/apc.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/apc.so: cannot open shared object file: No such file or directory in Unknown on line 0

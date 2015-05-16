@@ -1,0 +1,96 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Welcome to File Sharing!</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<style>
+h2 {color:violet;}
+input[type=submit] {padding:5px 5px; background:#ccc; border:0 none;
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px; }
+button {
+  color: #FFF;
+  background-color: #900;
+  font-weight: bold;
+}
+form div {
+  padding: 5px; /*default div padding in the form e.g.  0 5px 0*/
+  margin: 5px; /*default div padding in the form e.g. 5px 0  0*/
+}
+
+</style>
+</head>
+<body background="bgfit.jpg" background-position: 50% 50%; background-repeat:no-repeat;>
+  <form action="homepage.html" method="post" enctype="multipart/form-data">
+    <input type="submit" value="Home" name="submit">
+</form>    
+  <form action="login.html" method="post" enctype="multipart/form-data">
+    <input type="submit" value="Logout" name="submit">
+</form>  
+<center>  
+	
+                 <div>
+                    <form action="uploadMultiple.html" method="post" enctype="multipart/form-data">
+                      <fieldset>
+    <legend><h2>Share Files On Local Server</h2></legend>
+    <input type="submit" value="Upload Files" name="submit">
+  </fieldset>
+</form>    
+     			</div>
+<div>
+  <form action="uploadMultipleDomains.html" method="post" enctype="multipart/form-data">
+     <fieldset>
+      <legend><h2>Share Files On All Servers</h2></legend>
+    <input type="submit" value="Broadcast File" name="submit">
+     </fieldset>
+</form>
+</div>    
+</center>
+
+<center>  
+	
+<div>
+ <form action="view.html" method="post" enctype="multipart/form-data">
+  <fieldset>
+    <legend><h2>View Local Server Files</h2></legend>
+    <input type="submit" value="View Files" name="submit">
+  </fieldset>
+</form>
+</div>
+<div>
+    <form action="viewAll.html" method="post" enctype="multipart/form-data">
+      <fieldset>
+    <legend><h2>View Files Uploaded From All Server</h2></legend>
+    <input type="submit" value="View Broadcasted Files" name="submit">
+       </fieldset>
+</form>  
+</div>
+</center>
+        <!-- /.container -->
+</body>
+</html>
+
+

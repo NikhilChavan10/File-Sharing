@@ -1,0 +1,19 @@
+[
+	{
+		"list": "http://www.shivakumarss.com/bs/list.php",
+		"upload": "http://www.shivakumarss.com/bs/upload.php"
+	},
+	{
+		"list": "http://www.nikhil-chavan.com/Project207/list.php",
+		"upload": "http://www.nikhil-chavan.com/Project207/upload.php"
+	},
+	{
+		"list": "http://www.pukhrajsingh.com/login/list.php",
+		"upload": "http://www.pukhrajsingh.com/login/upload.php"
+	},
+	{
+		"list": "http://www.vijetakarani.com/list.php",
+		"upload": "http://www.vijetakarani.com/upload.php"
+	}
+
+]
